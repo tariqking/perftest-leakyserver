@@ -1,0 +1,59 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  app:
+    container_name: leaky_app
+    build: .
+    ports:
+      - "8080:8080"
+    networks:
+      - spring-boot-simple
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:8080/actuator/health" ]
+      interval: 10s
+      timeout: 10s
+      retries: 10
+
+  jmeter:
+    container_name: leaky_jmeter
+    build: ./jmeter
+    ports:
+      - "9270:9270"
+    networks:
+      - spring-boot-simple
+    volumes:
+      - ./jmeter/launch.sh:/launch.sh
+      - ./jmeter/perftest.jmx:/opt/apache-jmeter-5.4.1/perftest.jmx
+    command: ["-n", "-t", "perftest.jmx"]
+    depends_on:
+      - app
+
+  prometheus:
+    container_name: leaky_prometheus
+    image: prom/prometheus:v2.30.3
+    ports:
+      - "9090:9090"
+    networks:
+      - spring-boot-simple
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:9090" ]
+      interval: 10s
+      timeout: 10s
+      retries: 10
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+
+  grafana:
+    container_name: leaky_grafana
+    image: grafana/grafana:8.2.0
+    ports:
+      - "3000:3000"
+    networks:
+      - spring-boot-simple
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:3030" ]
+      interval: 10s
+      timeout: 10s
+      retries: 10
+
+networks:
+  spring-boot-simple:
