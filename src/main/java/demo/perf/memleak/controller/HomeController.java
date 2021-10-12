@@ -27,7 +27,7 @@ public class HomeController {
         try {
             long time = (long) (Math.random() * 1000);
             Thread.sleep(time);
-            log.info("slept for : " + time);
+            // log.info("slept for : " + time);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

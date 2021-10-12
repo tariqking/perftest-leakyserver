@@ -13,7 +13,7 @@ scrape_configs:
     # metrics_path defaults to '/metrics'
     # scheme defaults to 'http'.
     static_configs:
-      - targets: ['localhost:9270']
+      - targets: ['jmeter:9270']
 
   - job_name: 'prometheus'
     # metrics_path defaults to '/metrics'
