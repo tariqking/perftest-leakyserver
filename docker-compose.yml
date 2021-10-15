@@ -8,7 +8,7 @@ services:
     networks:
       - spring-boot-simple
     healthcheck:
-      test: [ "CMD", "curl", "-f", "http://localhost:8080/actuator/health" ]
+      test: [ "CMD", "curl", "-f", "http://app:8080/actuator/health" ]
       interval: 10s
       timeout: 10s
       retries: 10
@@ -40,11 +40,11 @@ services:
       timeout: 10s
       retries: 10
     volumes:
-      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
 
   grafana:
     container_name: leaky_grafana
-    image: grafana/grafana:8.2.0
+    build: './grafana'
     ports:
       - "3000:3000"
     networks:
@@ -57,3 +57,6 @@ services:
 
 networks:
   spring-boot-simple:
+
+volumes:
+  grafana-storage:

@@ -26,12 +26,6 @@ user: admin
 pass: admin
 ```
 
-* Skip updating password
-* [Add a datasource at this link](http://127.0.0.1:3000/datasources) and fill in the details below
-
-```
-type: Prometheus
-URL: http://prometheus:9090
-```
-* Click Save and Test
-* Visit [the explore tab](http://127.0.0.1:3000/explore?orgId=1&left=%5B%22now-5m%22,%22now%22,%22Prometheus%22,%7B%22refId%22:%22A%22,%22exemplar%22:true,%22expr%22:%22jvm_memory_committed_bytes%7B%7D%22%7D%5D) to explore the metrics being captured
+You can then view these dashboards - 
+* [App Stats Dashboard](http://localhost:3000/d/17kOE7Onk/spring-boot-app?orgId=1&refresh=30s&from=now-15m&to=now)
+* [Prometheus Stats Dashboard](http://localhost:3000/d/UDdpyzz7z/prometheus-stats?orgId=1&refresh=5s&from=now-15m&to=now)
