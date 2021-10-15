@@ -23,7 +23,7 @@ services:
     volumes:
       - ./jmeter/launch.sh:/launch.sh
       - ./jmeter/perftest.jmx:/opt/apache-jmeter-5.4.1/perftest.jmx
-    command: ["-n", "-t", "perftest.jmx"]
+    command: ["-Jprometheus.ip=0.0.0.0", "-n", "-t", "perftest.jmx"]
     depends_on:
       - app
 

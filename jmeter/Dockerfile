@@ -45,4 +45,7 @@ COPY launch.sh /
 WORKDIR ${JMETER_HOME}
 
 #10
+EXPOSE 9270
+
+#11
 ENTRYPOINT ["/launch.sh"]
