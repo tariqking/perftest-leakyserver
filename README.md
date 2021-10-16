@@ -5,21 +5,36 @@
 The following need to be installed on your system:
 
 * [Docker](https://docs.docker.com/get-docker/)
-* [Docker Compose](https://docs.docker.com/compose/install/)
+* [Docker Compose](https://docs.docker.com/compose/install/) (for mac/linux)
+* [Java](https://www.oracle.com/java/technologies/downloads/)
+
+##### Optional
+
+The following would be needed to modify the project
+
 * [JMeter](https://jmeter.apache.org/download_jmeter.cgi)
 * [JMeter Prometheus Plugin](https://github.com/johrstrom/jmeter-prometheus-plugin/releases)
+* [VS Code](https://code.visualstudio.com/download)
 
 ### Build and run the project
 
 Build the project using the following build script
 
+##### MacOS/Linux
+
 ```shell
 $ ./bnd.sh
 ```
 
+##### Windows
+
+```shell
+$ .\bnd.bat
+```
+
 ### Grafana
 
-* [Login to grafana](http://127.0.0.1:3000/login) with these credentials
+* [Login to grafana at this link](http://127.0.0.1:3000/login) with these credentials
 
 ```
 user: admin
