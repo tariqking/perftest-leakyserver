@@ -128,8 +128,15 @@ You can then view these dashboards:
 
 ## Optional
 
-The following would be needed to modify the project
+To view/modify the leaky web server:
 
-* [JMeter](https://jmeter.apache.org/download_jmeter.cgi)
-* [JMeter Prometheus Plugin](https://github.com/johrstrom/jmeter-prometheus-plugin/releases)
-* [VS Code](https://code.visualstudio.com/download)
+1. Install [Visual Studio Code](https://code.visualstudio.com/download)
+2. Open this repository in Visual Studio Code
+3. Navigate to `src/main` to view the code
+
+To view/modify the JMeter test plan:
+
+1. Download and unzip [JMeter](https://jmeter.apache.org/download_jmeter.cgi) 
+2. Download the latest release JAR file for [JMeter Prometheus Plugin](https://github.com/johrstrom/jmeter-prometheus-plugin/releases). Place the JAR in your JMeter folder under `lib/ext`
+3. (On Windows) Start JMeter by running `bin/jmeter.bat` in your JMeter folder
+4. (On macOS/Linux) Open a terminal and change directory to your JMeter folder. Run `./bin/jmeter.sh`
