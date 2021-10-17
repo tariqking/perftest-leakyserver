@@ -34,16 +34,14 @@ public class HomeController {
         return classLoader.getResourceAsStream(fileName);
     }
 
-    @GetMapping(value = "/")
+    @GetMapping(value = "/process-order")
     public UUID loadHomePage(HttpSession session, Model model) {
         UUID uid = (UUID) session.getAttribute("uid");
         if (uid == null) {
             uid = UUID.randomUUID();
         }
 
-        String str = null;
-        str = getResourceFileAsString("large-file.txt");
-
+        String str = getResourceFileAsString("large-file.txt");
         str.intern();
 
         session.setAttribute("uid", uid);
@@ -56,6 +54,14 @@ public class HomeController {
             e.printStackTrace();
         }
         return UUID.randomUUID();
+    }
+
+    @GetMapping(value = "/login")
+    public String login(HttpSession session, Model model) {
+        String str = null;
+        str = getResourceFileAsString("large-file.txt");
+        str.intern();
+        return "Login successful";
     }
 
 }
