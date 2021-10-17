@@ -21,9 +21,9 @@ The following need to be installed on your system:
 After installing all of the above tools, open Windows PowerShell as Administrator and run the following commands:
 
 ```shell
-$ git config --global core.autocrlf false
-$ git clone https://github.com/tariqking/perftest-leakyserver.git
-$ cd perftest-leakyserver
+git config --global core.autocrlf false
+git clone https://github.com/tariqking/perftest-leakyserver.git
+cd perftest-leakyserver
 ```
 
 ### Build and run the project
@@ -31,7 +31,7 @@ $ cd perftest-leakyserver
 Using the same PowerShell as above, build the project using the following build script
 
 ```shell
-$ .\bnd.bat
+.\bnd.bat
 ```
 
 ### Grafana
@@ -61,8 +61,8 @@ The following need to be installed on your system:
 After installing all of the above tools, open a terminal and run the following commands:
 
 ```shell
-$ git clone https://github.com/tariqking/perftest-leakyserver.git
-$ cd perftest-leakyserver
+git clone https://github.com/tariqking/perftest-leakyserver.git
+cd perftest-leakyserver
 ```
 
 ### Build and run the project
@@ -70,7 +70,7 @@ $ cd perftest-leakyserver
 Using the same terminal as above, build the project using the following build script
 
 ```shell
-$ ./bnd.sh
+./bnd.sh
 ```
 
 ### Grafana
@@ -101,8 +101,8 @@ The following need to be installed on your system:
 After installing all of the above tools, open a terminal and run the following commands:
 
 ```shell
-$ git clone https://github.com/tariqking/perftest-leakyserver.git
-$ cd perftest-leakyserver
+git clone https://github.com/tariqking/perftest-leakyserver.git
+cd perftest-leakyserver
 ```
 
 ### Build and run the project
@@ -110,7 +110,7 @@ $ cd perftest-leakyserver
 Using the same terminal as above, build the project using the following build script
 
 ```shell
-$ ./bnd.sh
+./bnd.sh
 ```
 
 ### Grafana
