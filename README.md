@@ -141,4 +141,4 @@ To view/modify the JMeter test plan:
 2. Download the latest release JAR file for [JMeter Prometheus Plugin](https://github.com/johrstrom/jmeter-prometheus-plugin/releases). Place the JAR in your JMeter folder under `lib/ext`
 3. (On Windows) Start JMeter by running `bin/jmeter.bat` in your JMeter folder
 4. (On macOS/Linux) Open a terminal and change directory to your JMeter folder. Run `./bin/jmeter.sh`
-5. Open the `jmeter/perftest.jmx` file from this repository.
+5. Open the `jmeter/perftest.jmx` file from this repository
