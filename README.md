@@ -43,7 +43,7 @@ user: admin
 pass: admin
 ```
 
-You can then view these dashboards - 
+You can then view these dashboards:
 * [App Stats Dashboard](http://localhost:3000/d/17kOE7Onk/spring-boot-app?orgId=1&refresh=30s&from=now-15m&to=now)
 * [Prometheus Stats Dashboard](http://localhost:3000/d/UDdpyzz7z/prometheus-stats?orgId=1&refresh=5s&from=now-15m&to=now)
 
@@ -82,7 +82,7 @@ user: admin
 pass: admin
 ```
 
-You can then view these dashboards - 
+You can then view these dashboards:
 * [App Stats Dashboard](http://localhost:3000/d/17kOE7Onk/spring-boot-app?orgId=1&refresh=30s&from=now-15m&to=now)
 * [Prometheus Stats Dashboard](http://localhost:3000/d/UDdpyzz7z/prometheus-stats?orgId=1&refresh=5s&from=now-15m&to=now)
 
@@ -122,7 +122,7 @@ user: admin
 pass: admin
 ```
 
-You can then view these dashboards - 
+You can then view these dashboards:
 * [App Stats Dashboard](http://localhost:3000/d/17kOE7Onk/spring-boot-app?orgId=1&refresh=30s&from=now-15m&to=now)
 * [Prometheus Stats Dashboard](http://localhost:3000/d/UDdpyzz7z/prometheus-stats?orgId=1&refresh=5s&from=now-15m&to=now)
 
