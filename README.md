@@ -5,6 +5,7 @@ Installation instructions for:
 * [Windows](#running-on-windows)
 * [macOS](#running-on-macos)
 * [Linux](#running-on-linux)
+* [Optional: View/Modify Project](#optional)
 
 ## Running on Windows
 
