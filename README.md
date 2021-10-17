@@ -1,8 +1,14 @@
 # Leaky Web Server Exercise
 
-### Running on Windows
+Installation instructions for:
 
-##### Pre-requisites
+* [Windows](#running-on-windows)
+* [macOS](#running-on-macos)
+* [Linux](#running-on-linux)
+
+## Running on Windows
+
+### Pre-requisites
 
 The following need to be installed on your system:
 
@@ -42,9 +48,9 @@ You can then view these dashboards -
 * [App Stats Dashboard](http://localhost:3000/d/17kOE7Onk/spring-boot-app?orgId=1&refresh=30s&from=now-15m&to=now)
 * [Prometheus Stats Dashboard](http://localhost:3000/d/UDdpyzz7z/prometheus-stats?orgId=1&refresh=5s&from=now-15m&to=now)
 
-### Running on macOS
+## Running on macOS
 
-##### Pre-requisites
+### Pre-requisites
 
 The following need to be installed on your system:
 
@@ -82,9 +88,9 @@ You can then view these dashboards -
 * [App Stats Dashboard](http://localhost:3000/d/17kOE7Onk/spring-boot-app?orgId=1&refresh=30s&from=now-15m&to=now)
 * [Prometheus Stats Dashboard](http://localhost:3000/d/UDdpyzz7z/prometheus-stats?orgId=1&refresh=5s&from=now-15m&to=now)
 
-### Running on Linux
+## Running on Linux
 
-##### Pre-requisites
+### Pre-requisites
 
 The following need to be installed on your system:
 
@@ -122,7 +128,7 @@ You can then view these dashboards -
 * [App Stats Dashboard](http://localhost:3000/d/17kOE7Onk/spring-boot-app?orgId=1&refresh=30s&from=now-15m&to=now)
 * [Prometheus Stats Dashboard](http://localhost:3000/d/UDdpyzz7z/prometheus-stats?orgId=1&refresh=5s&from=now-15m&to=now)
 
-### Optional
+## Optional
 
 The following would be needed to modify the project
 
