@@ -14,8 +14,7 @@ The following need to be installed on your system:
 
 * [Git for Windows](https://git-scm.com/download/win)
 * [Docker Desktop](https://www.docker.com/products/docker-desktop)
-* [Java (64-bit)](https://cdn.azul.com/zulu/bin/zulu8.56.0.21-ca-jdk8.0.302-win_x64.msi)
-* [Java (32-bit)](https://cdn.azul.com/zulu/bin/zulu8.56.0.21-ca-jdk8.0.302-win_i686.msi)
+* [Java (64-bit)](https://cdn.azul.com/zulu/bin/zulu8.56.0.21-ca-jdk8.0.302-win_x64.msi) or [Java (32-bit)](https://cdn.azul.com/zulu/bin/zulu8.56.0.21-ca-jdk8.0.302-win_i686.msi)
 
 ### Clone this repository
 
@@ -55,8 +54,7 @@ You can then view these dashboards -
 The following need to be installed on your system:
 
 * [Docker Desktop](https://www.docker.com/products/docker-desktop)
-* [Java (Intel Chip)](https://cdn.azul.com/zulu/bin/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64.dmg)
-* [Java (Apple M1 Chip)](https://cdn.azul.com/zulu/bin/zulu8.56.0.23-ca-jdk8.0.302-macosx_aarch64.dmg)
+* [Java (Intel Chip)](https://cdn.azul.com/zulu/bin/zulu8.56.0.21-ca-jdk8.0.302-macosx_x64.dmg) or * [Java (Apple M1 Chip)](https://cdn.azul.com/zulu/bin/zulu8.56.0.23-ca-jdk8.0.302-macosx_aarch64.dmg)
 
 ### Clone this repository
 
