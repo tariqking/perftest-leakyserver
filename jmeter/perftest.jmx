@@ -150,7 +150,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">10</stringProp>
+        <stringProp name="ThreadGroup.num_threads">5</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
@@ -222,7 +222,7 @@
             <collectionProp name="prometheus.collector_definitions">
               <elementProp name="" elementType="com.github.johrstrom.listener.ListenerCollectorConfig">
                 <stringProp name="collector.help">default help string</stringProp>
-                <stringProp name="collector.metric_name">jmeter_resp_hist_process-order</stringProp>
+                <stringProp name="collector.metric_name">jmeter_resp_hist_process_order</stringProp>
                 <stringProp name="collector.type">HISTOGRAM</stringProp>
                 <collectionProp name="collector.labels">
                   <stringProp name="102727412">label</stringProp>
@@ -232,7 +232,7 @@
               </elementProp>
               <elementProp name="" elementType="com.github.johrstrom.listener.ListenerCollectorConfig">
                 <stringProp name="collector.help">default help string</stringProp>
-                <stringProp name="collector.metric_name">jmeter_resp_summary_process-order</stringProp>
+                <stringProp name="collector.metric_name">jmeter_resp_summary_process_order</stringProp>
                 <stringProp name="collector.type">SUMMARY</stringProp>
                 <collectionProp name="collector.labels">
                   <stringProp name="50511102">category</stringProp>
@@ -243,7 +243,7 @@
               </elementProp>
               <elementProp name="" elementType="com.github.johrstrom.listener.ListenerCollectorConfig">
                 <stringProp name="collector.help">default help string</stringProp>
-                <stringProp name="collector.metric_name">jmeter_count_total_process-order</stringProp>
+                <stringProp name="collector.metric_name">jmeter_count_total_process_order</stringProp>
                 <stringProp name="collector.type">COUNTER</stringProp>
                 <collectionProp name="collector.labels">
                   <stringProp name="102727412">label</stringProp>
@@ -253,7 +253,7 @@
               </elementProp>
               <elementProp name="" elementType="com.github.johrstrom.listener.ListenerCollectorConfig">
                 <stringProp name="collector.help">default help string</stringProp>
-                <stringProp name="collector.metric_name">jmeter_success_ratio_process-order</stringProp>
+                <stringProp name="collector.metric_name">jmeter_success_ratio_process_order</stringProp>
                 <stringProp name="collector.type">SUCCESS_RATIO</stringProp>
                 <collectionProp name="collector.labels">
                   <stringProp name="102727412">label</stringProp>
@@ -263,7 +263,7 @@
               </elementProp>
               <elementProp name="" elementType="com.github.johrstrom.listener.ListenerCollectorConfig">
                 <stringProp name="collector.help">default help string</stringProp>
-                <stringProp name="collector.metric_name">jmeter_success_total_process-order</stringProp>
+                <stringProp name="collector.metric_name">jmeter_success_total_process_order</stringProp>
                 <stringProp name="collector.type">COUNTER</stringProp>
                 <collectionProp name="collector.labels">
                   <stringProp name="102727412">label</stringProp>

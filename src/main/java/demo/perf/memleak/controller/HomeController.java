@@ -57,7 +57,7 @@ public class HomeController {
     }
 
     @GetMapping(value = "/login")
-    public String login(HttpSession session, Model model) {
+    public String login() {
         return "Login successful";
     }
 
